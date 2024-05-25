@@ -499,6 +499,10 @@ input[type="submit"]:hover {
   .hero-wrapper-title span:last-child {
     font-size: 30px;
   }
+
+  .footer {
+    font-size: 9px;
+  }
 }
 
 @media screen and (max-width: 750px) {
