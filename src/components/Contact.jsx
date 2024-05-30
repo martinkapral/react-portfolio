@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import resume from "../assets/M.Kapral_CV.pdf";
 
 const Contact = () => {
   const form = useRef();
@@ -56,7 +57,9 @@ const Contact = () => {
         </div>
         <div className="contact-info">
           <h3>Resume</h3>
-          <a>CV pdf</a>
+          <a href={resume} target="_blank" rel="noopener noreferrer">
+            CV.pdf
+          </a>
         </div>
       </div>
       <p>Or use this email form down below. &darr;</p>

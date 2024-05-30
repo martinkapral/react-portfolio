@@ -64,8 +64,8 @@ export const PROJECTS = [
     description:
       "My personal portfolio website showcasing myself, my projects, skills, and contact information.",
     technologies: ["ReactJS", "Tailwind", "Framer-motion"],
-    ghlink: "",
-    sitelink: "",
+    ghlink: "https://github.com/martinkapral/react-portfolio",
+    sitelink: "https://martinkapral.netlify.app/",
   },
   {
     title: "Van-Life",

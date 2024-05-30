@@ -204,6 +204,19 @@ body {
   padding: 20px;
 }
 
+.resume {
+  margin-top: 20px;
+}
+
+.resume a {
+  color: #d9f99d;
+  text-decoration: underline;
+}
+
+.resume a:hover {
+  color: #d9f99d95;
+}
+
 .skills {
   margin-top: 50px;
 }
@@ -220,6 +233,10 @@ body {
   border: 1px solid #d9f99d20;
   background: rgba(114, 114, 114, 0.2);
   box-shadow: 0 2px 3px #0000003d;
+}
+
+.skills p {
+  margin-top: 20px;
 }
 
 h2 {
@@ -487,7 +504,7 @@ input[type="submit"]:hover {
   }
 
   .arrows {
-    transform: scale(0.7);
+    margin-bottom: 50px;
   }
 }
 
@@ -498,6 +515,10 @@ input[type="submit"]:hover {
 
   .hero-wrapper-title span:last-child {
     font-size: 30px;
+  }
+
+  .footer {
+    font-size: 9px;
   }
 }
 
