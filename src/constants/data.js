@@ -73,8 +73,8 @@ export const PROJECTS = [
     description:
       "Van rental app which offers a list of available vans, complete with all the necessary information for your perfect road trip.",
     technologies: ["ReactJS", "React Router", "Firebase"],
-    ghlink: "https://github.com/martinkapral/van-life",
-    sitelink: "https://martinkapral.github.io/van-life/",
+    ghlink: "https://github.com/martinkapral/van-life2",
+    sitelink: "https://van-life-2.netlify.app/",
   },
   {
     title: "miniSOUNDTOOLS",
