@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 export const ABOUT_TEXT =
   "I´m a 27 years old developer from Slovakia based in Brno, Czechia. After I finished my university studies in Mass Media, I started working as a project and installation manager. During my 5-years in that field, I´ve collected many personal skills including teamwork, customer communication and attention to detail. I felt like it was time for me to grow professionally, and that was when I discovered my fascination with frontend development. At first as a hobby, later as a passion which progressed into intensive courses and multiple side projects. I enjoy finding creative solutions and focusing on details in my projects. When I'm not coding, you can find me playing my synths in my home studio, exercising in the gym or exploring nature on my bicycle.";
@@ -66,6 +67,15 @@ export const PROJECTS = [
     technologies: ["ReactJS", "Tailwind", "Framer-motion"],
     ghlink: "https://github.com/martinkapral/react-portfolio",
     sitelink: "https://martinkapral.netlify.app/",
+  },
+  {
+    title: "BRNO.info",
+    image: project5,
+    description:
+      "This website serves as a resource for getting to know the city of Brno. It offers a wide variety of maps and charts with detailed data.",
+    technologies: ["ReactJS", "React Router", "Leaflet JS"],
+    ghlink: "https://github.com/martinkapral/BRNO.info",
+    sitelink: "https://brno-info.netlify.app/",
   },
   {
     title: "Van-Life",
